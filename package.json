@@ -1,0 +1,24 @@
+{
+  "name": "central-camera",
+  "version": "1.0.0",
+  "description": "central camera for robotics",
+  "main": "ccam.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/central-camera.git"
+  },
+  "author": "Peter Tadich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/central-camera/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/central-camera#readme",
+  "dependencies": {
+    "matrix-computations": "git+https://github.com/PeterTadich/matrix-computations.git",
+    "pseudo-inverse": "git+https://github.com/PeterTadich/pseudo-inverse.git",
+    "singular-value-decomposition": "git+https://github.com/PeterTadich/singular-value-decomposition.git"
+  }
+}
